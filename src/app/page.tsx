@@ -1,4 +1,5 @@
 import AboutMe from "@/components/AboutMe/AboutMe";
+import SocialHandler from "@/components/SocialHandler/SocialHandler";
 
 export default function Home() {
   return (
@@ -16,8 +17,12 @@ export default function Home() {
             the web.
           </p>
         </div>
-        {/* About section */}
-        <AboutMe />
+        <section className="flex flex-col w-1/2">
+          {/* About section */}
+          <AboutMe />
+          {/* Social Media Handler */}
+          <SocialHandler />
+        </section>
       </section>
     </main>
   );

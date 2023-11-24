@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <section className="w-1/2">
+    <section className="w-full">
       <p className="text-textColorMuted w-9/12 tracking-wide leading-relaxed lg:w-full">
         As a frontend developer , I specialize in building robust, scalable web
         applications using modern technologies such as
