@@ -1,9 +1,8 @@
 "use client";
 
-import contactMeValidator from "@/utils/contactMeValidator";
-import Image from "next/image";
 import { ChangeEvent, FormEvent, useState } from "react";
 import FormError from "../FormError/FormError";
+import { isNumberKey, contactMeValidator } from "@/utils/contactMeValidator";
 
 const ContactMeForm = () => {
   const [formData, setFormData] = useState({
@@ -40,8 +39,6 @@ const ContactMeForm = () => {
         [name]: value.trim(),
       }));
   };
-
-  const isNumberKey = (value: string) => (!!+value ? true : false);
 
   const onSubmitHandler = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();

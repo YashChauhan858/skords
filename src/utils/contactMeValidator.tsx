@@ -4,7 +4,7 @@ interface IContactFormValidator {
   subject: string;
 }
 
-const contactMeValidator = (
+export const contactMeValidator = (
   formData: IContactFormValidator
 ): [boolean, IContactFormValidator] => {
   const errorObject = {
@@ -27,4 +27,4 @@ const contactMeValidator = (
   return [false, errorObject];
 };
 
-export default contactMeValidator;
+export const isNumberKey = (value: string) => (!!+value ? true : false);
