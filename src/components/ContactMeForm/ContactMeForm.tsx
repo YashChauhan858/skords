@@ -52,7 +52,7 @@ const ContactMeForm = () => {
 
   return (
     <section className="w-[60%] mx-auto lg:w-[70%] md:w-[90%]">
-      <div className="py-8 lg:py-16 px-4 lg:px-0 mx-auto max-w-screen-md">
+      <div className="py-8 px-4 mx-auto max-w-screen-md">
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-textColor">
           Get in touch
         </h2>
