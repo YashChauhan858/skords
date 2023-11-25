@@ -3,9 +3,9 @@ import SocialHandler from "@/components/SocialHandler/SocialHandler";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <section className="w-full flex">
-        <div className="w-1/2">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 lg:pt-12">
+      <section className="w-full flex lg:flex-col lg:gap-10">
+        <div className="w-1/2 lg:w-full">
           <h1 className="font-semibold text-3xl text-textColor">
             Hi there, im Yash Chauhan
           </h1>
@@ -17,7 +17,7 @@ export default function Home() {
             the web.
           </p>
         </div>
-        <section className="flex flex-col w-1/2">
+        <section className="flex flex-col w-1/2 lg:w-full lg:flex-row lg:gap-24">
           {/* About section */}
           <AboutMe />
           {/* Social Media Handler */}
