@@ -25,7 +25,7 @@ const SocialHandler = () => {
   ];
   return (
     <section>
-      <ul className="list-none flex items-center gap-5 mt-28 lg:flex-col lg:mt-0">
+      <ul className="list-none flex items-center gap-5 mt-28 lg:flex-col lg:mt-0 md:flex-row md:mt-0">
         {socialHandler.map((link) => (
           <li key={link.alt}>
             <a href={link.link} target="_blank" rel="noopener noreferrer">

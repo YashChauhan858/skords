@@ -17,7 +17,7 @@ export default function Home() {
             the web.
           </p>
         </div>
-        <section className="flex flex-col w-1/2 lg:w-full lg:flex-row lg:gap-24">
+        <section className="flex flex-col w-1/2 lg:w-full lg:flex-row lg:gap-24 md:flex-col md:gap-10">
           {/* About section */}
           <AboutMe />
           {/* Social Media Handler */}
