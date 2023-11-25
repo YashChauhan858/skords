@@ -51,8 +51,7 @@ const ContactMeForm = () => {
   };
 
   return (
-    <section className="observe-me lg:w-[90%] lg:mx-auto" data-who="contactMe">
-      <a id="contactMe" className=""></a>
+    <section className="w-[60%] mx-auto lg:w-[70%] md:w-[90%]">
       <div className="py-8 lg:py-16 px-4 lg:px-0 mx-auto max-w-screen-md">
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-textColor">
           Get in touch
@@ -121,7 +120,7 @@ const ContactMeForm = () => {
           </div>
           <button
             type="submit"
-            className="py-3 px-5 w-40 text-sm font-medium text-center text-badgeBg rounded-md bg-badgeText lg:w-full hover:bg-primary-800 flex justify-center items-center"
+            className="py-3 px-5 text-sm font-medium text-center text-badgeBg rounded-md bg-badgeText w-full hover:bg-primary-800 flex justify-center items-center"
           >
             Send message
           </button>
