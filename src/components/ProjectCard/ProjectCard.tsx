@@ -19,7 +19,7 @@ const ProjectCard = ({ cardData }: IProjectCard) => {
           src={cardData.image}
           alt="project-image"
           fill={true}
-          objectFit="cover"
+          className="object-cover group-hover:scale-105 transition-all duration-200"
         />
       </div>
       <div className="w-3/5 sm:w-full">
