@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Nav = () => {
   return (
-    <nav className="p-6 px-24 sticky top-0 backdrop-blur-md">
+    <nav className="p-6 px-24 sticky top-0 backdrop-blur-md z-30">
       <ul className="flex gap-10 items-center">
         <li className="select-none cursor-pointer">
           <Link href={"/"}>
