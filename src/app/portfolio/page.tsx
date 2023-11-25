@@ -53,7 +53,7 @@ const portfolio = () => {
   ];
   return (
     <main className="">
-      <div className="w-[50%] mx-auto">
+      <div className="w-[50%] mx-auto lg:w-4/5 md:w-full">
         {projectData?.length !== 0 &&
           projectData?.map((cardData) => (
             <ProjectCard key={cardData.id} cardData={cardData} />

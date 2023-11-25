@@ -13,13 +13,13 @@ interface IProjectCard {
 
 const ProjectCard = ({ cardData }: IProjectCard) => {
   return (
-    <div className="p-9 w-full cursor-pointer hover:bg-cardHoverBackground transition-all duration-200 flex rounded-md items-center group gap-4">
-      <div className="w-2/5 h-28 self-start relative">
+    <div className="p-9 w-full cursor-pointer transition-all duration-200 flex rounded-md items-center group gap-4 sm:flex-col">
+      <div className="w-2/5 h-28 self-start relative sm:h-40 sm:w-[60%]">
         <Image
           src={cardData.image}
           alt="project-image"
           fill={true}
-          className="object-cover group-hover:scale-105 transition-all duration-200"
+          className="object-cover group-hover:scale-105 transition-all duration-200 rounded-md"
         />
       </div>
       <div className="w-3/5 sm:w-full">
