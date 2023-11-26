@@ -12,7 +12,7 @@ export default function Home() {
           <p className="font-semibold text-lg text-textColorMuted mt-2">
             Front-end developer
           </p>
-          <p className="mt-4 pl-3 text-sm w-3/5 lg:w-[80%] text-textColorMuted tracking-wide lg:pl-0">
+          <p className="mt-4 text-sm w-3/5 lg:w-[80%] text-textColorMuted tracking-wide lg:pl-0">
             I build accessible, inclusive products and digital experiences for
             the web.
           </p>
