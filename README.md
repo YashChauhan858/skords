@@ -6,11 +6,6 @@ This is a portfolio website that is built using following stack.
 - Tailwind css
 - Typescript
 
-LightHouse test
-
-- Production localhost test
-  ![localhost test](/ReadmeImg/productionLighthouseTest.png)
-
 To run the application in dev mode
 
 - npm run dev
