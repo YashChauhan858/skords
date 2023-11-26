@@ -9,7 +9,7 @@ This is a portfolio website that is built using following stack.
 LightHouse test
 
 - Production localhost test
-  <img src="ReadmeImg/productionLighthouseTest.png" width="500"/>
+  ![localhost test](/ReadmeImg/productionLighthouseTest.png)
 
 To run the application in dev mode
 
