@@ -7,7 +7,13 @@ const Nav = () => {
       <ul className="flex gap-10 items-center sm:gap-12">
         <li className="select-none cursor-pointer">
           <Link href={"/"}>
-            <Image src={"/logo.png"} alt="logo" height={40} width={40} />
+            <Image
+              src={"/logo.png"}
+              alt="logo"
+              priority={true}
+              height={40}
+              width={40}
+            />
           </Link>
         </li>
         <ul className="flex gap-4">
