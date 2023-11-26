@@ -1,5 +1,7 @@
 ## skords (PORTFOLIO)
 
+[Deployed Link](https://skords.netlify.app)
+
 This is a portfolio website that is built using following stack.
 
 - Next.js
